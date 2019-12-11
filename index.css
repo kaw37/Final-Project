@@ -1,0 +1,85 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    background-image: url("../karenwuwebimage.jpg");
+    background-attachment: fixed;
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+
+
+}
+
+h3{
+    color: white;
+
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Buttons*/
+.btn.btn-primary{
+    text-align: center;
+    display: block;
+    vertical-align: bottom;
+}
+.btn-primary{
+    background: black;
+    border-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    width: auto;
+}
+.btn-primary:hover{
+    background: #646464;
+    border-color: #646464;
+}
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+
+
+}
+
+.card {
+    background-color: rgba(255, 255, 255, .5);
+
+}
+.card-text{
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 991px) {
+    .column{
+        width: 100%;
+        margin-bottom: 1em;
+        padding: 0px 15px;
+
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+/*DEVELOPER: Karen Wu, IS117-005, Fall 2019 */
